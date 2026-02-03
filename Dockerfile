@@ -4,4 +4,4 @@ USER root
 
 RUN npm install -g opencode-ai
 
-USER openclaw
+USER node
