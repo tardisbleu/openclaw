@@ -2,3 +2,4 @@
 
 OpenClaw with :
 - OpenCode
+- clawhub
