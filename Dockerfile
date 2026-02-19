@@ -5,6 +5,7 @@ USER root
 RUN apt-get update && apt-get install -y \
     golang \
     build-essential \
+    chromium \
     && npm install -g opencode-ai \
     && npm install -g clawhub \
     && rm -rf /var/lib/apt/lists/*
