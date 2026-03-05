@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip python3-venv \
     && npm install -g opencode-ai \
     && npm install -g clawhub \
+    && npm install -g @googleworkspace/cli \
     && rm -rf /var/lib/apt/lists/*
 
 USER node
